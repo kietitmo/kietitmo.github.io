@@ -2,24 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kiet Nguyen - price table </title>
-    <link rel="stylesheet" href="table-style.css" />
+    <title> Price Table - Kiet Nguyen - Football shop  </title>
+    <link rel="stylesheet" href="price-table-style.css" />
+    <link rel="stylesheet" href="./header-nav.css" />
 </head>
 <body>
     <div class="wrapper">
+        <!-- header -->
         <header>
             <section class="header__logo">
-                <img src="./assets/img/logo-store-new.png" alt="logo-store">
+                <a href="./index.html">
+                    <img src="./assets/img/logo-store-new.png" alt="logo-store">
+                </a>        
             </section>
 
-            <section class="header__shop-infor">
-                    <h2 class="header__shop-infor__address">
-                        St. Petersburg, Russia
-                    </h2>
-                    <h2 class="header__shop-infor__phone-number">
-                        +7(999)-999-99-99
-                    </h2> 
-            </section>
+            <a class="header__shop-infor" href="./about-us.html">
+                <h2 class="header__shop-infor__address">
+                    St. Petersburg, Russia
+                </h2>
+                <h2 class="header__shop-infor__phone-number">
+                    +7(999)-999-99-99
+                </h2> 
+            </a>
 
             <section class="header__searching">
                 <form class="header__searching__form">
@@ -33,6 +37,7 @@
                 <a href="#" class="your cart"> your cart</a>
             </section>
         </header>
+
         <!-- navigation -->
         <nav class="nav">
             <ul class="nav__menu">
@@ -40,110 +45,147 @@
                     <a href="./index.html">home</a>
                 </li>
                 <li>
-                    <a href="#">categories</a>
+                    <a href="./promotion.html">Promotion</a>
                 </li>
                 <li>
-                    <a href="#">shipping</a>
+                    <a href="./shipping.html">shipping</a>
                 </li>
                 <li>
                     <a href="./price-table.html">all price</a>
                 </li>
                 <li>
-                    <a href="#">size table</a>
+                    <a href="./size-table.html">size table</a>
                 </li>
                 <li>
-                    <a href="#">about us</a>
+                    <a href="./about-us.html">about us</a>
                 </li>
             </ul>
         </nav>
-        <div class="page-title">
-            <h1>TABLE OF PRICE</h1>
-        </div>
-        <div class="table__wrap">
-            <table class="table">
-                <thead class="table__header table__header--color">
-                    <tr class="table__row">
-                        <th class="table__cell table__header__product-name table__header--color">
-                            name
-                        </th>
-                        <th class="table__cell table__header__product-brand table__header--color">
-                            brand
-                        </th>
-                        <th class="table__cell table__header__product-price table__header--color">
-                            price ($)
-                        </th>
-                        <th class="table__cell table__header__product-quantity table__header--color">
-                            quantity
-                        </th>
-                    </tr>
-                </thead>
-
-                <tbody class="table__body">
-                    <tr class="table__row">
-                        <td class="table__cell table__product-name"> copa</td>
-                        <td class="table__cell table__product-brand"> adidas</td>
-                        <td class="table__cell table__product-price"> 100</td>
-                        <td class="table__cell table__product-quantity"> 15</td>
-                    </tr>
-                    
-                    <tr class="table__row">
-                        <td class="table__cell table__product-name"> mercurial</td>
-                        <td class="table__cell table__product-brand"> nike</td>
-                        <td class="table__cell table__product-price"> 110</td>
-                        <td class="table__cell table__product-quantity"> 10</td>
-                    </tr>
-
-                    <tr class="table__row">
-                        <td class="table__cell table__product-name"> tiempo</td>
-                        <td class="table__cell table__product-brand"> nike</td>
-                        <td class="table__cell table__product-price"> 120</td>
-                        <td class="table__cell table__product-quantity"> 22</td>
-                    </tr>
-
-                    <tr class="table__row">
-                        <td class="table__cell table__product-name"> future z</td>
-                        <td class="table__cell table__product-brand"> puma</td>
-                        <td class="table__cell table__product-price"> 99</td>
-                        <td class="table__cell table__product-quantity"> 3</td>
-                    </tr>
-                    <tr class="table__row">
-                        <td class="table__cell table__product-name"> copa</td>
-                        <td class="table__cell table__product-brand"> adidas</td>
-                        <td class="table__cell table__product-price"> 100</td>
-                        <td class="table__cell table__product-quantity"> 15</td>
-                    </tr>
-                    
-                    <tr class="table__row">
-                        <td class="table__cell table__product-name"> mercurial</td>
-                        <td class="table__cell table__product-brand"> nike</td>
-                        <td class="table__cell table__product-price"> 110</td>
-                        <td class="table__cell table__product-quantity"> 10</td>
-                    </tr>
-
-                    <tr class="table__row">
-                        <td class="table__cell table__product-name"> tiempo</td>
-                        <td class="table__cell table__product-brand"> nike</td>
-                        <td class="table__cell table__product-price"> 120</td>
-                        <td class="table__cell table__product-quantity"> 22</td>
-                    </tr>
-
-                    <tr class="table__row">
-                        <td class="table__cell table__product-name"> future z</td>
-                        <td class="table__cell table__product-brand"> puma</td>
-                        <td class="table__cell table__product-price"> 99</td>
-                        <td class="table__cell table__product-quantity"> 3</td>
-                    </tr>
-                </tbody>
-
-                <tfoot class="table__footer">
-                    <tr class="table__row table__row--last table__footer--color">
-                        <td colspan="2" class="table__cell table_total">TOTAL</td>
-                        <td class="table__cell table__product-price"> 858</td>
-                        <td class="table__cell table__product-quantity"> 100</td>
-                    </tr>
-                </tfoot>
+        <!-- main -->
+        <main>
+            <div class="page-title">
+                <h1>TABLE OF PRICE</h1>
             </div>
-        </table>
+            <div class="table__wrap">
+                <table class="table">
+                    <thead class="table__header">
+                        <tr class="table__row">
+                            <th class="table__cell table__header__product-name table__header--color">
+                                name
+                            </th>
+                            <th class="table__cell table__header__product-brand table__header--color">
+                                brand
+                            </th>
+                            <th class="table__cell table__header__product-price table__header--color">
+                                price ($)
+                            </th>
+                            <th class="table__cell table__header__product-quantity table__header--color">
+                                quantity
+                            </th>
+                        </tr>
+                    </thead>
+    
+                    <tbody class="table__body">
+                        <tr class="table__row">
+                            <td class="table__cell table__product-name"> copa</td>
+                            <td class="table__cell table__product-brand"> adidas</td>
+                            <td class="table__cell table__product-price"> 100</td>
+                            <td class="table__cell table__product-quantity"> 15</td>
+                        </tr>
+                        
+                        <tr class="table__row">
+                            <td class="table__cell table__product-name"> mercurial</td>
+                            <td class="table__cell table__product-brand"> nike</td>
+                            <td class="table__cell table__product-price"> 110</td>
+                            <td class="table__cell table__product-quantity"> 10</td>
+                        </tr>
+    
+                        <tr class="table__row">
+                            <td class="table__cell table__product-name"> tiempo</td>
+                            <td class="table__cell table__product-brand"> nike</td>
+                            <td class="table__cell table__product-price"> 120</td>
+                            <td class="table__cell table__product-quantity"> 22</td>
+                        </tr>
+    
+                        <tr class="table__row">
+                            <td class="table__cell table__product-name"> future z</td>
+                            <td class="table__cell table__product-brand"> puma</td>
+                            <td class="table__cell table__product-price"> 99</td>
+                            <td class="table__cell table__product-quantity"> 3</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell table__product-name"> copa</td>
+                            <td class="table__cell table__product-brand"> adidas</td>
+                            <td class="table__cell table__product-price"> 100</td>
+                            <td class="table__cell table__product-quantity"> 15</td>
+                        </tr>
+                        
+                        <tr class="table__row">
+                            <td class="table__cell table__product-name"> mercurial</td>
+                            <td class="table__cell table__product-brand"> nike</td>
+                            <td class="table__cell table__product-price"> 110</td>
+                            <td class="table__cell table__product-quantity"> 10</td>
+                        </tr>
+    
+                        <tr class="table__row">
+                            <td class="table__cell table__product-name"> tiempo</td>
+                            <td class="table__cell table__product-brand"> nike</td>
+                            <td class="table__cell table__product-price"> 120</td>
+                            <td class="table__cell table__product-quantity"> 22</td>
+                        </tr>
+    
+                        <tr class="table__row">
+                            <td class="table__cell table__product-name"> future z</td>
+                            <td class="table__cell table__product-brand"> puma</td>
+                            <td class="table__cell table__product-price"> 99</td>
+                            <td class="table__cell table__product-quantity"> 3</td>
+                        </tr>
+    
+                        <tr class="table__row">
+                            <td class="table__cell table__product-name"> copa</td>
+                            <td class="table__cell table__product-brand"> adidas</td>
+                            <td class="table__cell table__product-price"> 100</td>
+                            <td class="table__cell table__product-quantity"> 15</td>
+                        </tr>
+                        
+                        <tr class="table__row">
+                            <td class="table__cell table__product-name"> mercurial</td>
+                            <td class="table__cell table__product-brand"> nike</td>
+                            <td class="table__cell table__product-price"> 110</td>
+                            <td class="table__cell table__product-quantity"> 10</td>
+                        </tr>
+    
+                        <tr class="table__row">
+                            <td class="table__cell table__product-name"> tiempo</td>
+                            <td class="table__cell table__product-brand"> nike</td>
+                            <td class="table__cell table__product-price"> 120</td>
+                            <td class="table__cell table__product-quantity"> 22</td>
+                        </tr>
+    
+                        <tr class="table__row">
+                            <td class="table__cell table__product-name"> future z</td>
+                            <td class="table__cell table__product-brand"> puma</td>
+                            <td class="table__cell table__product-price"> 99</td>
+                            <td class="table__cell table__product-quantity"> 3</td>
+                        </tr>
+                    </tbody>
+    
+                    <tfoot class="table__footer">
+                        <tr class="table__row table__row--last table__footer--color">
+                            <td colspan="2" class="table__cell table_total">TOTAL</td>
+                            <td class="table__cell table__product-price"> 858</td>
+                            <td class="table__cell table__product-quantity"> 100</td>
+                        </tr>
+                    </tfoot>
+                </div>
+            </table>
+        </main>
+        
+        <!-- footer -->
+        <footer>
+            <h2>CONTACT</h2>
+            <i>NGUYEN TUAN KIET +7(999)-999-99-99</i>
+        </footer>
     </div>
 </body>
 </html>

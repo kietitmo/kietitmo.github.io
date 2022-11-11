@@ -1,28 +1,19 @@
-body {
-    font-family: 'PT Sans', sans-serif;
-    color: black;
-    background-color: rgb(31, 31, 31);
-    font-size: 1rem;
-}
 
 .page-title {
+    margin: 20px;
     color: white;
     text-align: center;
     text-shadow: 5px 5px 10px black;
 }
+
 .table {
     background-color: black;
-    width: 100%;
+    width: 95%;
     border-collapse: collapse;
     margin: 0 auto;
     margin-top: 2rem;
     box-shadow: 10px 2px 30px rgba(255, 255, 255, 0.2);
-}
-
-.table__header {
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 0.75rem;
+    border-radius: 10px;
 }
 
 .table__product-brand {
@@ -41,6 +32,17 @@ body {
 .table__cell {
     padding: 1rem 1.5rem;
     text-align: center;
+    color: black;
+}
+
+.table__header {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 0.75rem;
+}
+
+.table__header--color {
+    color: #fff;
 }
 
 .table__body tr:nth-child(odd) {
@@ -54,7 +56,6 @@ body {
 
 .table__header--color
 {
-    background-color: rgb(0, 0, 0);
     color: aliceblue;
     font-weight: bold;
 }
