@@ -193,13 +193,11 @@ header
 
 .nav__menu li
 {
-    padding: 5px 37px;
+    padding: 5px 40px;
 }
 
 .nav__menu li a:hover
 {
-    /* font-weight: bolder; */
-    /* text-shadow: 2px 2px 1px rgb(167, 167, 167); */
     text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
 
@@ -209,8 +207,13 @@ header
     text-transform: capitalize;
 }
 
+.nav__menu li.active a {
+    padding: 5px 0;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
 main {
-    padding-bottom: 140px;
+    padding-bottom: 200px;
 }
 
 footer 
@@ -225,6 +228,10 @@ footer
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.footer__speed-loaded-page {
+    font-style: italic;
 }
 
 @media screen and (max-width: 1279px) {
