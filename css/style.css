@@ -10,12 +10,14 @@ main
 {
     /* display: flex; */
     margin: 5px 0;
+    width: 100%;
 }
 
 .main__slider-photo img
 {
     /* flex-shrink: 1; */
     max-width: 100%;
+    width: 100%;
 }
 
 .market-area
@@ -84,65 +86,4 @@ main
     text-transform: uppercase;
 }
 
-
-@media screen and (max-width: 1279px) {
-    .main__market-area__products-show .product-card
-    {
-        max-width: 45%;
-        max-height: 20%
-    }
-
-    .header__searching__form
-    {
-        flex-direction: column;
-    }
-
-    .header__searching__form button
-    {
-        padding: 3px 112px;
-    }
-
-    .nav 
-    {
-        display: flex;
-        flex-direction: row;
-        padding: 7px;
-        background-color: rgb(31, 31, 31);
-    }
-
-    .nav__menu 
-    {
-        width: 100%;
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .nav__menu li
-    {
-        padding: 5px 26px;
-        flex-grow: 1;
-    }
-
-}
-
-@media screen and (max-width: 767px) {
-    .main__market-area__products-show .product-card
-    {
-        max-width: 90%;
-        max-height: 20%
-    }
-
-    .header__shop-infor 
-    {
-        display: none;
-    }
-
-    .nav__menu li
-    {
-        padding: 5px 70px;
-        flex-grow: 1;
-    }
-}
 
