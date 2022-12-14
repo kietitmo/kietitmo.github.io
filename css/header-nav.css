@@ -13,7 +13,6 @@ html
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     background-color: #24252a;
-    
 }
 
 .wrapper {
@@ -232,53 +231,4 @@ footer
 
 .footer__speed-loaded-page {
     font-style: italic;
-}
-
-@media screen and (max-width: 1279px) {
-    .header__searching__form
-    {
-        flex-direction: column;
-    }
-
-    .header__searching__form button
-    {
-        padding: 3px 112px;
-    }
-
-    .nav 
-    {
-        display: flex;
-        flex-direction: row;
-        padding: 7px;
-        background-color: rgb(31, 31, 31);
-    }
-
-    .nav__menu 
-    {
-        width: 100%;
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .nav__menu li
-    {
-        padding: 5px 26px;
-        flex-grow: 1;
-    }
-
-}
-
-@media screen and (max-width: 767px) {
-    .header__shop-infor 
-    {
-        display: none;
-    }
-
-    .nav__menu li
-    {
-        padding: 5px 70px;
-        flex-grow: 1;
-    }
 }
