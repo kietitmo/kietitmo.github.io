@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Promotion - Kiet Nguyen - Football shop</title>
-        <link rel="stylesheet" href="/css/promotion.css" />
+        <title>About us - Kiet Nguyen - Football shop</title>
+        <link rel="stylesheet" href="/css/about-us.css" />
         <link rel="stylesheet" href="/css/header-nav.css" />
         <link rel="stylesheet" href="/css/responsive/responsive.css" />
         <script type="text/javascript" src="/js/script.js"></script>
@@ -16,10 +16,10 @@
                 <section class="header__logo">
                     <a href="/index.html">
                         <img src="/assets/img/logo-store-new.png" alt="logo-store">
-                    </a>  
+                    </a>                  
                 </section>
 
-                <a class="header__shop-infor" href="/html/about-us.html">
+                <a class="header__shop-infor" href="/about-us.html">
                     <h2 class="header__shop-infor__address">
                         St. Petersburg, Russia
                     </h2>
@@ -46,30 +46,45 @@
                     <li>
                         <a href="/index.html">home</a>
                     </li>
+                    <li>
+                        <a href="/promotion.html">Promotion</a>
+                    </li>
+                    <li>
+                        <a href="/shipping.html">shipping</a>
+                    </li>
+                    <li>
+                        <a href="/price-table.html">all price</a>
+                    </li>
+                    <li>
+                        <a href="/size-table.html">size table</a>
+                    </li>
                     <li class="active">
-                        <a href="/html/promotion.html">Promotion</a>
-                    </li>
-                    <li>
-                        <a href="/html/shipping.html">shipping</a>
-                    </li>
-                    <li>
-                        <a href="/html/price-table.html">all price</a>
-                    </li>
-                    <li>
-                        <a href="/html/size-table.html">size table</a>
-                    </li>
-                    <li>
-                        <a href="/html/about-us.html">about us</a>
+                        <a href="/about-us.html">about us</a>
                     </li>
                 </ul>
             </nav>
             <!-- main -->
             <main>
-                <div class="protmotion-content">
-                    <h1 class="page-title">promotion</h1>
-                    <p class="protmotion-content_paragraph">
-                        Sorry! There is no promotion on this time.
+                <div class="about-us-content">
+                    <h1 class="title-about-us">About us</h1>
+                    <p class="about-us-content_paragraph">
+                        This is website for online football shop,
+                        which created by Nguyen Tuan Kiet from group M33112.
                     </p>
+                </div>
+                <div class="want-to-buy-list">
+                    <h2>What product do you dream of owning?</h2>
+                    <div class="want-to-buy-list__input">
+                        <textarea class="want-to-buy-list__input__content" id="want-to-buy-list__input__content" placeholder="Enter your dream product here"></textarea>
+                        <button class="want-to-buy-list__input__summit-button">summit</button>
+                    </div>
+
+                    <div class="want-to-buy-list__buying-list">
+                        <h4>Products dream to own:</h4>
+                        <div id="want-to-buy-list__buying-list_result">
+                            Your dreaming products are not exist
+                        </div>
+                    </div>
                 </div>
             </main>
             <!-- footer -->
@@ -85,5 +100,6 @@
                 </div>
             </footer>
         </div>
+        <script src="/js/wana-buy-list.js"></script>
     </body>
-</html>
+<>
