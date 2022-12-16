@@ -9,6 +9,9 @@ $(document).ready(function(){
         // 1 слайд-шоу за раз
         slidesToShow: 1,
 
+        //Бесконечная петля скольжения
+        infinite: true,
+        
         // реагирует на каждую точку останова
         responsive: [
             {
