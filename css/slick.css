@@ -1,0 +1,29 @@
+.main__slider-photo{
+    display: flex;
+}
+
+.slick-arrow {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    z-index: 2;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.0);
+    font-size: 50px;
+}
+
+.slick-arrow :hover{
+    color: rgb(255, 189, 90);
+    font-weight: bolder;
+}
+
+.slick-next {
+    right: 20px;
+}
+
+.slick-prev {
+    left: 20px;
+}
