@@ -11,26 +11,23 @@ $(document).ready(function(){
 
         //Бесконечная петля скольжения
         infinite: true,
-        
+
         // реагирует на каждую точку останова
         responsive: [
             {
               breakpoint: 1024,
               settings: {
-                centerMode: true,
               }
             },
             {
             breakpoint: 768,
             settings: {
-              centerMode: true,
             }
             },
             {
             breakpoint: 480,
             settings: {
               arrows: false,
-              centerMode: true,
             }
             },
           ],
